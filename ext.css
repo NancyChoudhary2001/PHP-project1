@@ -1,0 +1,62 @@
+.card-header{
+    background-color: white !important ;
+}
+
+.container{
+    padding: 100px;
+    margin-top:20px;
+    background-color:blueviolet !important ;
+    border-radius: 1em;
+}
+.card-title{
+    color: blueviolet !important ;
+    font-weight: 1000;
+}
+.form-control{
+    margin: 0.25em;
+}
+
+.btn{
+    background-color: blueviolet !important ;
+    border-color: blueviolet !important ;
+}
+
+.col-sm-10 i{
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.col-sm-10.error input{
+    border-color: #e74c3c;
+}
+
+.col-sm-10.error i.fa-exclamation-circle{
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.col-sm-10.error small{
+    visibility: visible;
+    color:#e74c3c;
+}
+
+
+.col-sm-10 small{
+    position:absolute;
+    visibility:visible;
+    left: 10px;
+    top: 35px;
+    
+}
+.alert-warning{
+    margin-top: 5px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    background-color: rgb(226, 216, 236);
+    border-color: rgb(210, 192, 226);
+    position: absolute;
+    visibility: hidden;
+
+}
+
